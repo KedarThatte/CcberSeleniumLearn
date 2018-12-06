@@ -15,7 +15,7 @@ public class BaseTest extends BaseReusable {
     @Test
     public void checkTitle(){
 
-        //driver.getCurrentUrl();
+        driver.getCurrentUrl();
         Assert.assertEquals("Gmail",driver.getTitle());
         System.out.println("Test Passed");
     }
